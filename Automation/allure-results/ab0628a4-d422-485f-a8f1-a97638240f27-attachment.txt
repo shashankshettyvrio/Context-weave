@@ -1,0 +1,10 @@
+Status: 200
+Response: {
+  "email": "adaeze.okonjo@vriodigital.com",
+  "name": "Adaeze Okonjo",
+  "role_id": "platform_admin",
+  "role_label": "Platform Admin",
+  "access_note": "No business figures. Structure, lineage, cost and access only.",
+  "initials": "AO",
+  "signed_in_at": "2026-09-09T13:56:49.726Z"
+}

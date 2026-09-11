@@ -1,0 +1,106 @@
+Settings API Response: {
+  users: [
+    {
+      id: 1,
+      name: 'Ellis Hargrove',
+      email: 'ellis.hargrove@vriodigital.com',
+      role_id: 'business_user_executive',
+      role_label: 'Business User — Executive'
+    },
+    {
+      id: 2,
+      name: 'Dana Whitfield',
+      email: 'dana.whitfield@vriodigital.com',
+      role_id: 'domain_architect',
+      role_label: 'Domain Architect'
+    },
+    {
+      id: 3,
+      name: 'Rei Nakamura',
+      email: 'rei.nakamura@vriodigital.com',
+      role_id: 'business_user_project',
+      role_label: 'Business User — Project Level'
+    },
+    {
+      id: 4,
+      name: 'Adaeze Okonjo',
+      email: 'adaeze.okonjo@vriodigital.com',
+      role_id: 'platform_admin',
+      role_label: 'Platform Admin'
+    }
+  ],
+  personas: [
+    {
+      role_id: 'business_user_executive',
+      label: 'Business User — Executive',
+      access_note: 'Business figures and KPI answers only. No underlying structure exposed.',
+      nav: [Object],
+      read_only: [],
+      defaults: [Object],
+      reports: [Object],
+      report_defaults: [Object]
+    },
+    {
+      role_id: 'domain_architect',
+      label: 'Domain Architect',
+      access_note: 'No cost or business figures. Structure and lineage for owned domains only.',
+      nav: [Object],
+      read_only: [],
+      defaults: [Object],
+      reports: [Object],
+      report_defaults: [Object]
+    },
+    {
+      role_id: 'business_user_project',
+      label: 'Business User — Project Level',
+      access_note: 'Business figures for the assigned project only. No underlying structure exposed.',
+      nav: [Object],
+      read_only: [],
+      defaults: [Object],
+      reports: [Object],
+      report_defaults: [Object]
+    },
+    {
+      role_id: 'platform_admin',
+      label: 'Platform Admin',
+      access_note: 'No business figures. Structure, lineage, cost and access only.',
+      nav: [Object],
+      read_only: [Array],
+      defaults: [Object],
+      reports: [Object],
+      report_defaults: [Object]
+    }
+  ],
+  report_actions: [ 'open', 'edit', 'delete' ]
+}
+Ask API Response: {
+  graphs: [],
+  count: 0,
+  sources: [],
+  source_count: 0,
+  built_count: 1,
+  draft_count: 0,
+  answer_requirements: {
+    citations_options: [ [Object], [Object] ],
+    default_citations: 'required',
+    formats: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    note: 'Citations really apply — an answer that carries none says so. A render format is stated, not applied: an answer renders as the blocks it holds.'
+  }
+}
+Sources API Response: {
+  sources: [],
+  registered_count: 0,
+  connected_sources: 0,
+  profiled_tables: 0,
+  profiled_columns: 0,
+  profiled_documents: 0,
+  profiled_entities: 0,
+  profiled_today: 0,
+  profiled_today_date: '2026-09-10'
+}
