@@ -32,7 +32,7 @@ test('Login to ContextWeave', async ({ page }) => {
 
 test('Connect Google BigQuery source', async ({ page }) => {
   const loginPage = new LoginPage(page);
-  const dataCatalogPage = new DataCatalogPage(page);
+  const dataCatalogPage = new DataCatalogPage(page)  ;
 
   // Login
   await loginPage.goto();
